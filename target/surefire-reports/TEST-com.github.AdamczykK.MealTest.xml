@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.AdamczykK.MealTest" time="0.059" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\User\UnitTestingJava\target\test-classes;C:\Users\User\UnitTestingJava\target\classes;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire12772250827171530017\surefirebooter9299227264735978903.jar C:\Users\User\AppData\Local\Temp\surefire12772250827171530017 2022-01-08T09-07-45_342-jvmRun1 surefire21356626495714495tmp surefire_08220544942202833716tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\User\UnitTestingJava\target\test-classes;C:\Users\User\UnitTestingJava\target\classes;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\User\UnitTestingJava"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire12772250827171530017\surefirebooter9299227264735978903.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\User\UnitTestingJava"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\PROGRA~2\Borland\CBUILD~1\Bin;C:\PROGRA~2\Borland\CBUILD~1\Projects\Bpl;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Git\cmd;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="mealPricesShouldBeLowerThan10{int}[1]" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="mealPricesShouldBeLowerThan10{int}[2]" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="mealPricesShouldBeLowerThan10{int}[3]" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="mealPricesShouldBeLowerThan10{int}[4]" classname="com.github.AdamczykK.MealTest" time="0.022"/>
+  <testcase name="referencesToDifferentObjectsShouldNotBeEqual" classname="com.github.AdamczykK.MealTest" time="0.008"/>
+  <testcase name="referencesToTheSameObjectShouldBeEqual" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="twoMealsShouldBeEqualWhenPriceAndNameAreTheSame" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="burgersShouldHaveCorrectNameAndPrice{String, int}[1]" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="burgersShouldHaveCorrectNameAndPrice{String, int}[2]" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="cakeNamesShouldContainCake{String}[1]" classname="com.github.AdamczykK.MealTest" time="0.001"/>
+  <testcase name="cakeNamesShouldContainCake{String}[2]" classname="com.github.AdamczykK.MealTest" time="0.001"/>
+  <testcase name="cakeNamesShouldContainCake{String}[3]" classname="com.github.AdamczykK.MealTest" time="0.001"/>
+  <testcase name="shouldReturnDiscountedPrice" classname="com.github.AdamczykK.MealTest" time="0.003"/>
+  <testcase name="exceptionShouldBeThrownWhenDiscountIsHigherThanThePrice" classname="com.github.AdamczykK.MealTest" time="0.001"/>
+  <testcase name="calculateMealPrices[1]" classname="com.github.AdamczykK.MealTest" time="0.001"/>
+  <testcase name="calculateMealPrices[2]" classname="com.github.AdamczykK.MealTest" time="0"/>
+  <testcase name="calculateMealPrices[3]" classname="com.github.AdamczykK.MealTest" time="0"/>
+</testsuite>
